@@ -1,0 +1,48 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+## Unreleased
+
+### Added
+
+- Add offset columns and section raws to the dataframe output
+- Annotations created by regular expressions can overlap two sentences. Only one overlapping annotation is created.
+
+### Changed
+
+- Fix issue in processing of recursive rules in the terminology files
+- Fix bug when a word overlaps two sections
+- Fix bug with lower-cased short entities
+- Fix rule parsing with extra spaces around parentheses
+
+## [0.3] 2021-06-09
+
+### Added 
+
+- Add a CHANGELOG
+
+### Changed 
+
+- Fix apostrophe problem (1. terms ending with an apostrophe were not handled properly, 2. Windows apostrophe was only handled in terminologies, not documents)
+- Fix bug in Brat schema (annotation.conf contained the element name instead of the element id)
+- Fix minor bugs (rule declaration with extra spaces, better handling of empty lines in Excel files)
+- Short terms (i.e identified as "term" in the Excel terminology but shorter than 5 characters) are now case-insensitive (but still don't allow approximate matching)
+- No more warning when two entities overlap
+- Improve error logging during Excel file parsing
+- Strip spaces around regex matchings (even if the regex matches spaces before or after the matched expressions, the final result contains no surrounding spaces)
+
+
+## [0.2] 2021-04-23
+
+### Added
+- spaCy V3 support
+
+### Changed 
+
+- Move configuration file to an object module, so that several configuration files can be used for different project, without having to clone the entire ezannot package
+
+## [0.1] First version
+
+
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),

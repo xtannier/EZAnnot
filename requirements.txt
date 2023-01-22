@@ -1,0 +1,10 @@
+boolean.py>=3.7
+simstring_pure>=1.0.0
+six
+spacy>=2.2
+flashtext>=2.7
+nltk
+pandas>=1.2
+tqdm
+seaborn
+openpyxl

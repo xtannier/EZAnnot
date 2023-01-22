@@ -1,0 +1,11 @@
+MOTIF D'HOSPITALISATION
+
+Patient de 47 ans hospitalisé pour septicémie à Staphylococus Aureus dans un contexte d'adénocarcinome. 
+
+Il a une bactériémie (mais ce n'est pas dans une section sur le parcours du patient)
+
+EVOLUTION
+
+Il a une bactériémie.
+
+Il n'a pas de bactériémie (négation donc non annoté, ou plutôt annoté puis supprimé par une règle REMOVE).

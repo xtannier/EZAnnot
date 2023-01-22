@@ -1,0 +1,7 @@
+T1	metadata 0 0	
+T2	SECTION_head 0 1	M
+T3	Bacterie 73 93	Staphylococus Aureus
+A1	Bacterie_type T3 Staph_dore
+T4	Cancer 113 127	adénocarcinome
+T5	SECTION_evolution 217 218	E
+T6	Bacteriemie 237 248	bactériémie
